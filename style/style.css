@@ -1,0 +1,35 @@
+body {
+    height: 100vh;
+}
+.header, .footer {
+    height: 10%;
+    background: #e7da19;
+    text-align: center;
+}
+.main {
+    height: 80%;
+    background: #208b20;
+}
+.nav, .aside {
+    vertical-align: top;
+    display: inline-block;
+    width: 20%;
+    height: 100%;
+    background: cadetblue;
+    text-align: center;
+}
+.section {
+    vertical-align: top;
+    display: inline-block;
+    width: 60%;
+    height: 100%;
+    background: #b11161;
+}
+.article {
+    font-size: 15px;
+    margin: 10px;
+    background: rosybrown;
+    display: inline-block;
+    height: auto;
+    width: 100%;
+}
